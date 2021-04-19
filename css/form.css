@@ -1,0 +1,50 @@
+.form_contact {
+    margin: 0 0 0 10%;
+    max-width: 25%;
+    padding: 0 0 0 10%;
+    border-style: solid;
+    border-color: rgb(231, 181, 181);
+    float: left;
+}
+
+.input-form {
+    max-width: 100%;
+    border-radius: 35px;
+    border-color: antiquewhite;
+    font-size: 100%;
+    text-align: center;
+    align-items: center;
+    margin: 5% 0 6% 0%;
+}
+
+#contacto h1 {
+    margin: 0 0 0 10%;
+    padding: 0 0 2% 0;
+    color: rgb(172, 31, 85);
+}
+
+.buton {
+    background-color: rgb(172, 31, 85);
+    color: antiquewhite;
+    min-width: 54%;
+    min-height: 2em;
+    border-radius: 25px;
+    border-color: antiquewhite;
+    font-size: 100%;
+}
+
+.map {
+    float: right;
+    width: 40%;
+    margin: 0 5% 0 0;
+}
+
+.map a img {
+    float: left;
+    max-width: 10%;
+    padding: 0 2% 0 2%;
+}
+
+.a:hover {
+    background-color: gold;
+}
