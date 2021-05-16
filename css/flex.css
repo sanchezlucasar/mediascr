@@ -1,0 +1,28 @@
+.flex-container {
+    width: 50vw;
+    height: 50vh;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.flex-item {
+    width: 15%;
+    height: 15%;
+    background-color: violet;
+    border: 1px solid rgb(252, 252, 252);
+}
+
+.container-galeria {
+    margin: auto;
+    align-items: left;
+    width: 87%;
+    height: 100%;
+}
+
+.item-galeria {
+    width: 9rem;
+    height: 12rem;
+    border: 3px solid rgb(247, 153, 153);
+    border-radius: 13%;
+}

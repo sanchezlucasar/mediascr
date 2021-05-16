@@ -1,0 +1,37 @@
+.video {
+    margin: auto;
+}
+
+#nosotros {
+    margin: auto;
+    width: 900px;
+    display: flex;
+    align-items: flex-start;
+}
+
+#nosotros p {
+    margin: auto;
+    background-color: rgb(85, 4, 0);
+    font-size: larger;
+    color: white;
+}
+
+#nosotros img {
+    width: 20%;
+    display: flex;
+}
+
+.video iframe {
+    border: 2px solid rgb(85, 4, 0);
+    width: 400px;
+    height: 300px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 3%;
+    background-color: rgb(85, 4, 0);
+}
+
+.video {
+    position: relative;
+    top: -68px;
+    width: 40%;
+}

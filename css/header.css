@@ -1,8 +1,7 @@
     .menu-main {
         display: flex;
         justify-content: space-between;
-        background: rgb(172, 31, 85);
-        border-bottom: 1px solid #29487d;
+        background: rgb(244, 0, 133);
         height: 45px;
         max-width: 70%;
     }
@@ -23,11 +22,11 @@
     }
     
     .menu-main a:hover {
-        background: rgba(0, 0, 0, .1);
+        background: #ff7c00;
     }
     
     .menu-main a.active {
-        background-color: #29487d;
+        background-color: #ffd3aa;
     }
     
     @media (max-width: 768px) {
@@ -43,9 +42,10 @@
     }
     
     .logo {
-        width: 20%;
+        width: 15%;
         border-radius: 50%;
         position: absolute;
-        z-index: 2;
-        top: 3%;
+        z-index: 100;
+        top: 2%;
+        left: 5%;
     }

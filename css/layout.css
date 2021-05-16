@@ -1,15 +1,16 @@
 html {
-    background-color: rgb(172, 31, 85);
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(244, 0, 133);
 }
 
 header {
-    margin: 10% 0 0 0;
-    background-color: none;
+    margin: 3% 0 0 0;
+    padding: 1%;
 }
 
 main {
     margin: auto;
-    padding: 10% 0 80% 0;
+    padding: 10% 0 10% 0;
     background-color: antiquewhite;
 }
 

@@ -1,0 +1,11 @@
+.seleccionadores {
+    margin: auto;
+}
+
+.button-medias a {
+    background-color: red;
+}
+
+.button-medias:hover {
+    background-color: rgb(235, 131, 12);
+}
