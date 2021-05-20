@@ -1,14 +1,9 @@
 .div-footer {
-    margin: 0 0 15% 2%;
     float: left;
-    max-width: 32%;
-    max-height: 80%;
-    padding: 1em 7px 1px 1em;
-    align-items: center;
 }
 
 .div-footer p {
-    font-size: 11px;
+    font-size: 22px;
     font-family: 'Roboto', sans-serif;
 }
 
