@@ -3,20 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Medias CR</title>
     <link rel="stylesheet" href="/css/flex.css">
 
     <link rel="stylesheet" href="/css/layout.css">
     <link rel="stylesheet" href="/css/nosotros.css">
     <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
 </head>
 
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
     <header>
         <img class="logo" src="img/logomedias.png" alt="">
         <nav class="menu-main">
@@ -26,12 +31,59 @@
             <a href="/pages/promociones.html">Promociones </a>
             <a href="/pages/galeria.html">Galeria </a>
         </nav>
+        <style>
 
+        </style>
 
     </header>
     <main>
+        <section id="section">
 
-        <div class="video">
+            <div id="slider-content">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/sliders/slider1.png" class="d-block w-100" data-bs-interval="500" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/sliders/slider2.png" class="d-block w-100" data-bs-interval="500" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/sliders/slider3.png" class="d-block w-100" data-bs-interval="500" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            </div>
+        </section>
+        <section id="nosotros">
+            <h3>Nosotros</h3>
+            <div class="div-nosotros">
+                <iframe src="https://www.youtube.com/embed/MRSHzlICWHE" title="Medias CR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+
+                <p>Hola, somos Flor y Dami, junto con nuestros hijos llevamos adelante éste emprendimiento repleto de colores, alegría y mucho amor. Les ofrecemos distintos artículos basados en personajes animados de nuestra infancia y la actualidad. Aquí
+                    podrán encontrar medias desde bebé hasta adultos, encendedores, stickers, vasos infantiles, tazas y muchos productos más. Nuestra visión a futuro es que cada cliente desde el más pequeño al más grande se vayan con una enorme sonrisa
+                    por haber encontrado su personaje favorito en uno de nuestros productos. Que disfruten de los mismos por su calidad y funcionalidad. La pandemia, un problema de salud de Dami y la llegada del más pequeño de la familia nos llevó a reinventarnos
+                    y emprender a todo pulmón lo que hoy somos</p>
+
+            </div>
+
+
+        </section>
+
+        <!--         <div class="video">
             <iframe src="https://www.youtube.com/embed/MRSHzlICWHE" title="Medias CR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
         </div>
         <div id="nosotros" class="container-flex">
@@ -43,9 +95,24 @@
 
 
         </div>
-
+ -->
     </main>
-    <footer></footer>
+
+    <footer>
+        <div class="div-footer">
+            <p><b>Copyright</b>, MediasCR Todos los derechos reservados </p>
+        </div>
+        <div class="div-footer">
+            <p>Chubut - Argentina Telefono: +54 9 2974 78-4577 Horario de Atención de Lunes a Sabados de 9 a 20 hs </p>
+        </div>
+        <div class="div-footer">
+            <a href="https://www.facebook.com/CRmediasCR"><img src="/img/social/face.png" alt=""></a>
+            <a href="www.instagram.com/medias.cr/"><img src="/img/social/insta.png" alt=""></a>
+            <a href="#"><img src="/img/social/tweet.png" alt=""></a>
+            <a href="#"><img src="/img/social/pinterest.png" alt=""></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
 </body>
 
