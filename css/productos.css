@@ -16,3 +16,15 @@
     width: 24%;
     transition: .4s ease;
 }
+
+.container-construccion {
+    width: 350px;
+    top: -38px;
+    margin: auto;
+}
+
+.container-construccion img {
+    width: 320px;
+    top: -38px;
+    position: relative;
+}
